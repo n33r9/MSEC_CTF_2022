@@ -1,10 +1,12 @@
 # MSEC_CTF_2022
 [RE warm up](https://github.com/n33r9/MSEC_CTF_2022/tree/master/re/re00_warmup)
+
 ![](https://github.com/n33r9/MSEC_CTF_2022/blob/master/re/re00_warmup/image/warmup.png)
 
 *Đề bài cho file CTF.exe, thực hiện một vài thao tác kiểm tra đơn giản -> file PE64*
 ![](https://github.com/n33r9/MSEC_CTF_2022/blob/master/re/re00_warmup/image/checkfile.png)
 Thử chạy file, nhập string bất kỳ và nhận được "Try more!"
+
 ![](https://github.com/n33r9/MSEC_CTF_2022/blob/master/re/re00_warmup/image/runfile.png)
 
 Load file vào IDA64, chương trình yêu cầu người dùng nhập input, sau đó đưa input qua 1 vòng lặp, tiến hành biến đổi và cuối cùng so sánh với chuỗi ký tự: "mkO5kb_sc_Dr4D_iYe?"
