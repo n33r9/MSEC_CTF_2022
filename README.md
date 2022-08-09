@@ -25,7 +25,6 @@ Load file vào IDA64, chương trình yêu cầu người dùng nhập input, sa
 import string
 flag = ''
 str_cmp = 'mkO5kb_sc_Dr4D_iYe?'
-# print(string.printable)
 for ele in str_cmp:
     for i in string.printable:
         if (ord(i)-97) & 0xff > 25:
